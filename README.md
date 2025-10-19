@@ -34,7 +34,9 @@ This project allows users to explore ingredients, follow step-by-step instructio
 
 ## 🚀 Live Demo
 
-👉 [View Project Here]((https://github.com/geetanjaliVerse/Interactive-Recipe-Card/))  
+👉 **[View Project on GitHub](https://github.com/geetanjaliVerse/Interactive-Recipe-Card)**  
+👉 *(After enabling GitHub Pages, your live site will appear here)*  
+`https://geetanjaliVerse.github.io/Interactive-Recipe-Card/`
 
 ---
 
