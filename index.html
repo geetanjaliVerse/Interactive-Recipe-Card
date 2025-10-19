@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chocolate Cake Recipe</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="recipe-card">
+    <h1 class="recipe-title">Chocolate Cake</h1>
+
+    <img src="chocolate.webp" alt="Chocolate Cake" class="recipe-image">
+
+    <div class="info">
+      <p><strong>Prep Time:</strong> 45 mins</p>
+      <p><strong>Servings:</strong> 8 people</p>
+    </div>
+
+    <div class="buttons">
+      <button id="toggleIngredients">Show Ingredients</button>
+      <button id="toggleSteps">Show Steps</button>
+      <button id="startCooking">Start Cooking</button>
+      <button id="printRecipe">Print Recipe</button>
+    </div>
+
+    <div id="timer" class="timer hidden"></div>
+
+    <div id="ingredients" class="section hidden">
+      <h2>Ingredients</h2>
+      <ul>
+        <li>1½ cups all-purpose flour</li>
+        <li>1 cup sugar</li>
+        <li>½ cup cocoa powder</li>
+        <li>2 eggs</li>
+        <li>1 cup milk</li>
+        <li>½ cup vegetable oil</li>
+        <li>1 tsp baking soda</li>
+        <li>1 tsp vanilla extract</li>
+      </ul>
+    </div>
+
+    <div id="steps" class="section hidden">
+      <h2>Steps</h2>
+      <ol id="stepList">
+        <li>Preheat oven to 180°C (350°F).</li>
+        <li>Mix dry ingredients in a bowl.</li>
+        <li>Add wet ingredients and stir until smooth.</li>
+        <li>Pour batter into greased baking pan.</li>
+        <li>Bake for 30–35 minutes.</li>
+        <li>Let it cool and enjoy!</li>
+      </ol>
+      <button id="nextStep" class="hidden">Next</button>
+      <button id="resetPage" class="hidden">Reset</button>
+    </div>
+
+    <div class="progress-container">
+      <div id="progressBar" class="progress-bar"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
